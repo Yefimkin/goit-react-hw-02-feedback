@@ -2,10 +2,12 @@
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 .buttonListItem:not(:last-child) {
     margin-right: 10px;
+
 }
 
 .buttonListBtn{
@@ -15,16 +17,15 @@
     color: #fff;
     font-size: 1em;
 
-    background-color: rgb(243, 77, 0);
+    background-color: rgb(240, 118, 62);
     border: none;
     border-radius: 5px;
     outline: none;
-    /* transform: scale(1); */
     transition: background-color 250ms linear, transform 250ms linear;
 }
 
 .buttonListBtn:hover,
 .buttonListBtn:focus {
-    background-color: rgb(52, 170, 42);
-    /* transform: scale(1.1); */
+    background-color: rgb(79, 167, 79);
+    
 }
